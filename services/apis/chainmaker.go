@@ -3,8 +3,8 @@ package apis
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"zeusnet.com/zhf/zeusnet/modules/config"
-	"zeusnet.com/zhf/zeusnet/modules/defence/info"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/config"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/info"
 )
 
 func StartAttack(c *gin.Context) {

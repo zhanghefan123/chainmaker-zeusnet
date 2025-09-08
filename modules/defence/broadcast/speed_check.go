@@ -1,8 +1,8 @@
 package broadcast
 
 import (
-	"zeusnet.com/zhf/zeusnet/modules/config"
-	"zeusnet.com/zhf/zeusnet/modules/network_interface"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/config"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/network_interface"
 )
 
 // CheckIfUnderDdos 检测是否遭受到 Ddos 攻击

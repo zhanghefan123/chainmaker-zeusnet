@@ -1,9 +1,9 @@
 package network_interface
 
 import (
+	"github.com/zhanghefan123/chainmaker-zeusnet/tools/fileop"
+	"github.com/zhanghefan123/chainmaker-zeusnet/tools/intfop"
 	"strings"
-	"zeusnet.com/zhf/zeusnet/tools/fileop"
-	"zeusnet.com/zhf/zeusnet/tools/intfop"
 )
 
 // GetRxRecv 获取接口速度

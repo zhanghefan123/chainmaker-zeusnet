@@ -1,4 +1,4 @@
-module zeusnet.com/zhf/zeusnet
+module github.com/zhanghefan123/chainmaker-zeusnet
 
 go 1.18
 

@@ -4,7 +4,7 @@ import (
 	"chainmaker.org/chainmaker/common/v2/msgbus"
 	tbftpb "chainmaker.org/chainmaker/pb-go/v2/consensus/tbft"
 	"fmt"
-	"zeusnet.com/zhf/zeusnet/modules/defence/info"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/info"
 )
 
 // ResolveDdosAnnouncementMessage 解析DdosAnnouncement消息

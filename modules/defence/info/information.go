@@ -5,11 +5,11 @@ import (
 	"chainmaker.org/chainmaker/logger/v2"
 	consensusPb "chainmaker.org/chainmaker/pb-go/v2/consensus"
 	"fmt"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/config"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/network"
 	"io/ioutil"
 	"os"
 	"time"
-	"zeusnet.com/zhf/zeusnet/modules/config"
-	"zeusnet.com/zhf/zeusnet/modules/network"
 )
 
 var (

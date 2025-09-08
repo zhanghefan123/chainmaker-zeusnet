@@ -3,8 +3,8 @@ package etcd
 import (
 	"context"
 	"fmt"
-	"zeusnet.com/zhf/zeusnet/modules/config"
-	"zeusnet.com/zhf/zeusnet/modules/defence/broadcast"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/config"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/broadcast"
 )
 
 // HandleStartDefenceChange 处理 startDefence 的变更

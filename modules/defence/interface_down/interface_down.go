@@ -2,10 +2,10 @@ package interface_down
 
 import (
 	"fmt"
+	"github.com/zhanghefan123/chainmaker-zeusnet/global_var"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/config"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/network_interface"
 	"time"
-	"zeusnet.com/zhf/zeusnet/global_var"
-	"zeusnet.com/zhf/zeusnet/modules/config"
-	"zeusnet.com/zhf/zeusnet/modules/network_interface"
 )
 
 // SpeedCheckAndInterfaceDown 进行速度检查

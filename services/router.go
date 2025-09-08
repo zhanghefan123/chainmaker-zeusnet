@@ -2,7 +2,7 @@ package services
 
 import (
 	"github.com/gin-gonic/gin"
-	"zeusnet.com/zhf/zeusnet/services/apis"
+	"github.com/zhanghefan123/chainmaker-zeusnet/services/apis"
 )
 
 var postRoutes = map[string]gin.HandlerFunc{

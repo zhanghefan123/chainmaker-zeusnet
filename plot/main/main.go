@@ -1,6 +1,6 @@
 package main
 
-import "zeusnet.com/zhf/zeusnet/plot"
+import "github.com/zhanghefan123/chainmaker-zeusnet/plot"
 
 func main() {
 	plot.PlotProposeTimeout()

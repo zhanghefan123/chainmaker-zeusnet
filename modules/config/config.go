@@ -2,11 +2,11 @@ package config
 
 import (
 	"fmt"
+	"github.com/zhanghefan123/chainmaker-zeusnet/tools/fileop"
 	"os"
 	"strconv"
 	"strings"
 	"time"
-	"zeusnet.com/zhf/zeusnet/tools/fileop"
 )
 
 var (

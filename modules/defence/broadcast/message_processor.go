@@ -4,8 +4,8 @@ import (
 	"chainmaker.org/chainmaker/common/v2/msgbus"
 	netpb "chainmaker.org/chainmaker/pb-go/v2/net"
 	"fmt"
-	defenceMessage "zeusnet.com/zhf/zeusnet/modules/defence/message"
-	"zeusnet.com/zhf/zeusnet/tools/serialization"
+	defenceMessage "github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/message"
+	"github.com/zhanghefan123/chainmaker-zeusnet/tools/serialization"
 )
 
 // ProcessMessage 处理消息

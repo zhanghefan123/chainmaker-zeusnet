@@ -4,9 +4,9 @@ import (
 	"chainmaker.org/chainmaker/common/v2/msgbus"
 	netpb "chainmaker.org/chainmaker/pb-go/v2/net"
 	"github.com/gogo/protobuf/proto"
-	"zeusnet.com/zhf/zeusnet/modules/defence/info"
-	defenceMessage "zeusnet.com/zhf/zeusnet/modules/defence/message"
-	"zeusnet.com/zhf/zeusnet/tools/serialization"
+	"github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/info"
+	defenceMessage "github.com/zhanghefan123/chainmaker-zeusnet/modules/defence/message"
+	"github.com/zhanghefan123/chainmaker-zeusnet/tools/serialization"
 )
 
 // GenerateDdosAnnouncementMessage 生成DDOS攻击通告消息
