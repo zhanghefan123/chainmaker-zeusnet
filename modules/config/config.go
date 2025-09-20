@@ -25,6 +25,7 @@ type EnvLoader struct {
 	ContainerName          string
 	DDoSWarningRate        float64
 	BlocksPerProposer      int
+	TimeoutPropose         time.Duration
 	TimeoutProposeOptimal  time.Duration
 	ProposeOptimal         bool
 	WebServerListenPort    int
@@ -102,6 +103,13 @@ func (el *EnvLoader) LoadEnv() error {
 	if err != nil {
 		return fmt.Errorf("unable to parse BLOCKS_PER_PROPOSER: %w", err)
 	}
+
+	timeoutProposeStr := os.Getenv("TIMEOUT_PROPOSE")
+	timeoutProposeInt, err := strconv.Atoi(timeoutProposeStr)
+	if err != nil {
+		return fmt.Errorf("unable to parse TIMEOUT_PROPOSE")
+	}
+	el.TimeoutPropose = time.Second * time.Duration(timeoutProposeInt)
 
 	// 11. TimeoutProposeOptimal
 	timeoutProposeOptimalStr := os.Getenv("TIMEOUT_PROPOSE_OPTIMAL")
